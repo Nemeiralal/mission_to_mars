@@ -6,7 +6,7 @@ import time
 from selenium import webdriver
 
 def init_browser():
-    executable_path = {"executable_path":r"C:\Users\acer\Desktop\All HWs\All HWs\Mission-to-Mars\chromedriver_win32\chromedriver"}
+    executable_path = {"executable_path":r"C:\Users\Mrinalini\Desktop\MarkDowns\Web scraping Document DBs\mission_to_mars\chromedriver_win32}
     return Browser("chrome", **executable_path, headless = False)
 
 def scrape():
